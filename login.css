@@ -1,0 +1,368 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(./Photo2.jpg);
+    background-size: cover;
+   
+}
+/* ----------------------Header style---------------------------------*/
+.header {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    background-color: rgba(30, 30, 30, 0.15);
+    max-width: 1505px;
+    height: 100px;
+    
+}
+.logo {
+    margin-top: 24px;
+    margin-left: 90px;
+    background-color: black;
+    background-color: rgba(30, 30, 30, 0.90);
+    width: 180px;
+    height: 60px;
+}
+.logo .title {
+    color: white;
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+}
+.menu {
+    background-color: black;
+    background-color: rgba(30, 30, 30, 0.0);
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.menu .top {
+    background-color: black;
+    background-color: rgba(30, 30, 30, 0.0);
+    margin-left: 40px;
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.menu .middle {
+    margin-left: 40px;
+    width: 1170px;
+    height: 8px;
+    background-color: bisque;
+    background-color: rgba(230, 238, 240, 0.4);
+
+}
+.menu .buttom {
+
+    margin-left: 20px;
+    background-color: aqua;
+    background-color: rgba(30, 30, 30, 0.0);
+    width: 1100px;
+    height: 80px;
+
+    
+}
+.buttom form {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+    
+}
+.buttom form .first {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 30px;
+   
+    padding: 10px;
+    margin-left: 10px;
+}
+.first .up{
+    width: 60px;
+    height: 30px;
+    color: white;
+}
+.first .down{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    font-family: arial;
+}
+.first .star{
+    color: white;
+}
+.down a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+form .second button {
+    background-color: brown;
+    border: 1;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    background-color: blue;
+    margin-top: 5px;
+    margin-left: 820px;
+}
+
+.top .left {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 300px;
+    height: 50px;
+  
+}
+.top .right {
+    display: grid;
+    grid-template-columns: 70px 40px 1fr;
+    margin-left: 700px;
+    width: 50px;
+    height: 18px;
+    margin-top: 15px;
+  
+    
+}
+.left .home {
+ 
+    margin-top: 20px;
+    margin-left: 0;
+    outline: none;
+}
+.home a {
+    color: rgb(33, 117, 33);
+    text-decoration: none;
+    font-size: 17px;
+}
+.home :hover {
+    color: orchid;
+ 
+}
+
+.left .properties {
+     margin-top: 20px;
+     margin-left: 5px;
+     outline: none;
+}
+.properties a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+.properties :hover {
+    color: orchid;
+ 
+}
+.right .login {
+    margin-top: 5px;
+}
+.login a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+.login :hover {
+    color: orchid;
+ 
+}
+.right .spacing {
+    margin-top: 5px;
+    background-color: white;
+    width: 3px;
+    height: 20px;
+}
+.right .register{
+    margin-top: 5px;
+    
+}
+.register a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+}
+.register :hover {
+    color: orchid;
+   
+}
+/* --------------the body----------------------*/
+section {
+    margin-top: 100PX;
+    margin-left: 230px;
+    padding: 40px;
+    background-color: rgba(2, 2, 12, 0.9);
+    width: 1000px;
+    height: 300px;
+
+}
+section .one{
+    background-color: white;
+    width: 500px;
+    height: 460px;
+    position: absolute;
+    margin-top: 150px;
+    top: 1%;
+    margin-left: 500px;
+}
+
+.one form .log{
+    color: rgba(30, 30, 30, 0.60);
+    width: 100px;
+    font-size: 30px;
+    font-family: Arial;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.one .form2{
+    display: grid;
+}
+.form2 .code{
+    background-color: rgba(108, 114, 113, 0.6);
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 62px;
+}
+.code .code1{
+    font-size: 20px;
+    margin-top: 0px;
+    width: 100px;
+    background-color: rgba(30, 30, 30, 0.60);
+    /* text-align: center; */
+    height: 40px;
+}
+.code1 label{
+    padding: 5px;
+    margin-top: 100px;
+}
+.code1 i{
+    font-size: 15px;
+    margin: 12px;
+    margin-left: 10px;
+    color: white;
+}
+.code3{
+    font-size: 30px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.code2{
+    margin-left: 8px;
+}
+.form2 .pass{
+    background-color: rgba(119, 118, 118, 0.6);
+    font-size: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 62px;
+}
+.pass .lock{
+    color: rgba(119, 118, 118, 0.6);
+}
+.pass .password{
+    margin-left: 20px;
+    width: 600px;
+}
+form .drop{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    color: rgba(15, 5, 5, 0.9);
+    
+    /* color: rgba(119, 118, 118, 0.6); */
+}
+.drop i{
+    color: rgba(119, 118, 118, 0.6);;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pass i{
+    margin-left: 18px;
+    margin-top: 4px;
+}
+.pass input[type="password"]{
+    margin-left: 700px;
+}
+input[type="text"],input[type="Password"] {
+    /* padding-left: 10px; */
+    position: relative;
+    height: 35px;
+    /* width: 200px; */
+    font-size: 17px;
+    border: 0px;
+    background-color: rgba(119, 118, 118, 0.0);
+}
+input::placeholder {
+    font-weight: normal;
+    font-size: 18px;
+    transition: 0.3% ease;
+}
+/* input:focus::placeholder {
+    position: absolute;
+    font-size: 15px;  
+} */
+.form2 a{
+    margin-left: 265px;
+    font-size: 20px;
+    margin-top: 25px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(33, 117, 33);
+    text-decoration: none;
+}
+.form2 button{
+    background-color: rgba(3, 3, 3, 0.884);
+    color: white;
+    font-size: 20px;
+    width: 190px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+section .two{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(2, 2, 12, 0.0);
+}
+.two h1{
+    font-size:40px;
+    color: white;
+}
+.two p{
+    font-size: 18px;
+    color: white;
+}
+form1 button {
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    text-decoration-style: solid;
+    background-color: rgba(2, 2, 12, 0.9);
+    margin-left: 0px;
+}
